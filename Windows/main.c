@@ -26,6 +26,7 @@ WindowProc (HWND window,
             result = DefWindowProc(window, message, wParam, lParam);
         } break;
     }
+    return (0);
 }
 
 int WINAPI 
@@ -62,6 +63,5 @@ wWinMain(HINSTANCE instance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdSh
             DispatchMessage(&message);
         }
     }
-
     return (0);
 }
