@@ -7,6 +7,9 @@
 
 int globalRunning = 1;
 
+
+	
+	
 LRESULT CALLBACK
 WindowProc (HWND window,
             UINT message,
